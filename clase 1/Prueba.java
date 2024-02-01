@@ -14,7 +14,7 @@ public class Prueba {
 
         // Comparar dos materias
         System.out.println(mat1.compareTo(mat2));
-        System.out.println("_________________________________");
+        System.out.println("=================================");
 
         // Crear un arreglo de materias y ordenarlo
         Materia[] materias = new Materia[3];
@@ -25,12 +25,12 @@ public class Prueba {
         for (Materia m : materias) {
             System.out.println(m);
         }
-        System.out.println("_________________________________");
+        System.out.println("=================================");
 
         // Encontrar la materia con mayor semestre
         System.out.println(MetodosGenericos.getMayor(materias));
 
-        System.out.println("_________________________________");
+        System.out.println("=================================");
 
         // Crear instancias de Salon
         Salon sal1 = new Salon("O", 220, 40);
@@ -39,7 +39,7 @@ public class Prueba {
 
         // Comparar dos salones
         System.out.println(sal1.compareTo(sal2));
-        System.out.println("_________________________________");
+        System.out.println("=================================");
 
         // Crear un arreglo de salones y ordenarlo
         Salon[] salones = new Salon[3];
@@ -50,12 +50,12 @@ public class Prueba {
         for (Salon s : salones) {
             System.out.println(s);
         }
-        System.out.println("_________________________________");
+        System.out.println("=================================");
 
         // Encontrar el salón con mayor límite de cupo
         System.out.println(MetodosGenericos.getMayor(salones));
 
-        System.out.println("_________________________________");
+        System.out.println("=================================");
 
         // Crear un arreglo de objetos mezclados
         Object[] mezcla = new Object[3];

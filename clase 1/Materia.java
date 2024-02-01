@@ -34,9 +34,7 @@ public class Materia implements Comparable<Materia> {
      */
     @Override
     public int compareTo(Materia materia2) {
-        if (this.semestre != materia2.semestre) {
-            return this.semestre - materia2.semestre;
-        }
+        //IMPLEMENTAR
         return 0;
     }
 
